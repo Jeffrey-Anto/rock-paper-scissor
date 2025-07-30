@@ -1,0 +1,52 @@
+body{
+    background-color: black;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+img{
+    width: 60px;
+    border: 2px solid white;
+    padding: 30px;
+    border-radius: 60px;
+    margin: 10px;
+}
+.image-container button{
+    background-color: transparent;
+    border: none;
+    margin-top: 20px;
+}
+.result{
+    font-weight: bold;
+    font-size: 25px;
+}
+.image-icon{
+    border: none;
+    padding: 0;
+    margin: 5px;
+    width: 50px;
+}
+.choice{
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.score{
+    font-size: 20px;
+    margin-top: 30px;
+}
+.autoplay-button, .reset-button{
+    padding: 10px 15px;
+    font-size: 15px;
+    margin-top: 10px;
+    margin-right: 10px;
+    border-radius: 5px;
+}
+.yes-button, .no-button{
+    padding: 5px 10px;
+    margin: 5px;
+    background-color: rgba(4, 209, 4, 0.852);
+    color: white;
+    border: none;
+}
+.no-button{
+    background-color: red;
+}
