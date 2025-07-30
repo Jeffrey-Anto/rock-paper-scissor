@@ -2,6 +2,19 @@ body{
     background-color: black;
     color: white;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* margin: 0; */
+    height: 100vh;
+}
+.container{
+    /* background-color: aqua; */
+    width: 500px;
+    text-align: center;
+    border: 2px solid white;
+    box-shadow: 0 0 20px white;
+    border-radius: 5px;
 }
 img{
     width: 60px;
@@ -9,6 +22,14 @@ img{
     padding: 30px;
     border-radius: 60px;
     margin: 10px;
+    cursor: pointer;
+}
+.img-button:hover{
+    box-shadow: 0 0 20px white;
+}
+.autoplay-button:hover,
+.reset-button:hover{
+    box-shadow: 0 0 10px white;
 }
 .image-container button{
     background-color: transparent;
@@ -39,6 +60,7 @@ img{
     margin-top: 10px;
     margin-right: 10px;
     border-radius: 5px;
+    cursor: pointer;
 }
 .yes-button, .no-button{
     padding: 5px 10px;
@@ -46,6 +68,7 @@ img{
     background-color: rgba(4, 209, 4, 0.852);
     color: white;
     border: none;
+    cursor: pointer;
 }
 .no-button{
     background-color: red;
